@@ -52,7 +52,8 @@ const mostrarError = ( mensaje ) => {
 
 
 const consultarAPI = ( ciudad, pais ) => {
-    const appID = '91f304ef23b4ee3e9e45a2d362369e2b'
+    //! Agregar API key 
+    const appID = 'APPID'
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais},&appid=${appID}`
 
     //? Muestra spinner de carga
